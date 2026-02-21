@@ -1,0 +1,134 @@
+/* First Navbar Start */
+.first-navbar {
+  background-color: #0a2342;
+  padding: 10px;
+}
+
+.first-navbar-left {
+  column-gap: 2rem;
+}
+.first-navbar-left .box-1 {
+  column-gap: 1rem;
+}
+
+.first-navbar-left .box-1 i {
+  color: var(--white-color-2);
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.first-navbar-left .box-1 a {
+  color: var(--white-color-2);
+  font-size: 1.8rem;
+}
+
+.first-navbar-left .box-1 a:hover {
+  text-decoration: underline !important;
+  color: var(--accent-color);
+}
+
+.first-navbar-left .box-1:hover i {
+  color: var(--accent-color);
+}
+
+.first-navbar-right {
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+}
+
+.first-navbar-right a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #ffffff;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.first-navbar-right a:hover {
+  background: var(--accent-color);
+  color: var(--white-color-1);
+}
+
+.first-navbar-right p {
+  font-size: 1.8rem;
+  color: var(--white-color-2);
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+/* First Navbar End */
+
+/* Second Navbar Start */
+.second-navbar {
+  background-color: var(--white-color-1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-item .nav-link {
+  color: var(--black-color-2);
+  font-weight: var(--font-weight-medium);
+  font-size: 2rem;
+}
+
+.nav-item .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: var(--accent-color);
+  transition: width 0.3s;
+  margin-top: 3px;
+}
+
+.nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-item .nav-link:hover {
+  color: var(--accent-color);
+}
+
+.nav-item .nav-link.active {
+  color: var(--accent-color) !important;
+}
+
+.quote {
+  padding: 13px 25px;
+  background-color: var(--accent-color);
+  color: var(--white-color-1);
+  border-radius: 5px;
+  font-weight: var(--font-weight-medium);
+  font-size: 2rem;
+}
+
+.quote:hover {
+  background: var(--primary-color);
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler i {
+  font-size: 3.5rem;
+  color: var(--black-color-1);
+}
+/* Second Navbar End */

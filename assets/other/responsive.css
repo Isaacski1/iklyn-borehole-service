@@ -1,0 +1,247 @@
+/* Desktop Devices (Portrait and Landscape) Start */
+@media only screen and (min-width: 1440px) {
+}
+
+/* Desktop Devices (Portrait and Landscape) End */
+
+/* Laptop Devices (Portrait and Landscape) Start */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .first-navbar,
+  .second-navbar {
+    padding: 10px 50px !important;
+  }
+
+  .banner-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+/* Laptop Devices (Portrait and Landscape) End */
+
+/* Tablet Devices (Portrait and Landscape) Start */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .quote {
+    display: none;
+  }
+  .nav-item .nav-link {
+    width: 100%;
+    padding: 10px 0;
+    /* border-top: 1px solid #e0e0e0; */
+  }
+
+  .hero-section-item-1 img {
+    height: 60vh;
+  }
+  .hero-section-item-1 .content h1 {
+    font-size: 5rem;
+  }
+
+  .hero-section-item-1 .content p {
+    width: 80%;
+  }
+
+  .hero-section-item-1 .content .box a,
+  .hero-section-item-1 .content .box .box_1 {
+    font-size: 2rem;
+    padding: 12px 25px;
+  }
+
+  .hero-section-carousel .owl-nav {
+    display: none !important;
+  }
+
+  .about-col .about-img-2 {
+    bottom: 30%;
+  }
+
+  .about-col .content h2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+  }
+
+  .banner-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .banner-content .text h2 {
+    font-size: 4rem;
+  }
+
+  .banner-content .text p {
+    font-size: 1.6rem;
+  }
+
+  .banner-content .call-to-action a {
+    font-size: 2rem;
+    padding: 10px 15px;
+  }
+}
+/* Tablet Devices (Portrait and Landscape) End */
+
+/* Mobile Devices (Portrait and Landscape) Start */
+@media only screen and (max-width: 767px) {
+  /* Second Navbar */
+  .first-navbar-left .box-1 a {
+    font-size: 1.4rem !important;
+  }
+  .first-navbar-left .box-1 i {
+    font-size: 1.4rem !important;
+  }
+  .first-navbar-right {
+    display: none !important;
+  }
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .nav-item .nav-link::after {
+    display: none !important;
+  }
+
+  .quote {
+    display: none;
+  }
+  .nav-item .nav-link {
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .hero-section-item-1 img {
+    height: 70vh;
+  }
+  .hero-section-item-1 .content h1 {
+    font-size: 3rem;
+  }
+
+  .hero-section-item-1 .content p {
+    width: 80%;
+  }
+
+  .hero-section-item-1 .content .box a,
+  .hero-section-item-1 .content .box .box_1 {
+    font-size: 2rem;
+    padding: 12px 25px;
+  }
+
+  .hero-section-carousel .owl-nav {
+    display: none !important;
+  }
+
+  .banner-content {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .banner-content .text h2 {
+    font-size: 3rem;
+  }
+
+  .banner-content .text p {
+    font-size: 1.6rem;
+  }
+
+  .banner-content .call-to-action a {
+    font-size: 1.8rem;
+    padding: 8px 12px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .hero-section-item-1 img {
+    height: 50vh;
+  }
+  .hero-section-item-1 .content h1 {
+    font-size: 3rem;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .hero-section-item-1 .content p {
+    font-size: 1.6rem;
+  }
+
+  .hero-section-item-1 .content .box {
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+
+  .hero-section-item-1 .content .box a,
+  .hero-section-item-1 .content .box .box_1 {
+    font-size: 2rem;
+    padding: 8px 15px;
+  }
+
+  .about-col .about-img-2 {
+    width: 200px;
+  }
+
+  .about-col .content h2 {
+    font-size: 3rem;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-col .content .btn-box a {
+    font-size: 2rem;
+    padding: 8px 15px;
+  }
+
+  .heading {
+    width: 90%;
+    margin: auto;
+  }
+
+  .heading h2 {
+    font-size: 3rem;
+  }
+
+  .heading p {
+    font-size: 1.8rem;
+  }
+
+  .banner-content {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .banner-content .text h2 {
+    font-size: 3rem;
+  }
+
+  .banner-content .text p {
+    font-size: 1.6rem;
+  }
+
+  .banner-content .call-to-action a {
+    font-size: 1.8rem;
+    padding: 8px 12px;
+  }
+
+  .footer {
+    margin-top: 30px !important;
+  }
+
+  .bottom-bar p {
+    font-size: 1.5rem !important;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hero-section-item-1 img {
+    height: 65vh;
+  }
+}
+/* Mobile Devices (Portrait and Landscape) End */
