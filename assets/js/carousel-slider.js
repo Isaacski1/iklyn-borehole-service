@@ -50,3 +50,36 @@ $(".testimonials-carousel").owlCarousel({
   },
 });
 // Testimonials Carousel End
+
+// Service Carousel Start
+$(".service-row-carousel").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  navText: [
+    "<i class='bxr bxs-caret-left'></i>",
+    "<i class='bxr bxs-caret-right'></i>",
+  ],
+  dots: true,
+  autoplay: true,
+  autoplayTimeout: 6000,
+  autoplayHoverPause: false,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 1,
+    },
+    768: {
+      items: 2,
+    },
+    1000: {
+      items: 3,
+    },
+    1400: {
+      items: 4,
+    },
+  },
+});
+// Service Carousel End

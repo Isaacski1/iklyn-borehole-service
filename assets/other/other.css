@@ -133,6 +133,33 @@ span {
   border: 1px solid var(--background-color) !important;
 }
 
+.service-row-carousel .owl-dots {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.service-row-carousel .owl-dots span {
+  width: 20px !important;
+  height: 10px !important;
+  background: transparent !important;
+  border: 1px solid var(--primary-color) !important;
+  border-radius: 10px !important;
+  transition: var(--transition) !important;
+}
+
+.service-row-carousel .owl-dots .active span {
+  width: 35px !important;
+  background: var(--background-color) !important;
+  border: 1px solid var(--background-color) !important;
+}
+
+.service-row-carousel .owl-dots span:hover {
+  background: var(--background-color) !important;
+  border: 1px solid var(--background-color) !important;
+}
+
 .hero-section-carousel .owl-nav {
   position: absolute !important;
   top: 50% !important;
